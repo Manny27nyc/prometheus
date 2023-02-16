@@ -11,7 +11,7 @@ require (
 	github.com/alecthomas/units v0.0.0-20210912230133-d1bdfacee922
 	github.com/aws/aws-sdk-go v1.40.37
 	github.com/cespare/xxhash/v2 v2.1.2
-	github.com/containerd/containerd v1.5.4 // indirect
+	github.com/containerd/containerd v1.5.18 // indirect
 	github.com/dennwc/varint v1.0.0
 	github.com/dgryski/go-sip13 v0.0.0-20200911182023-62edffca9245
 	github.com/digitalocean/godo v1.65.0
@@ -56,11 +56,11 @@ require (
 	github.com/uber/jaeger-client-go v2.29.1+incompatible
 	github.com/uber/jaeger-lib v2.4.1+incompatible
 	go.uber.org/atomic v1.9.0
-	go.uber.org/goleak v1.1.10
+	go.uber.org/goleak v1.1.12
 	golang.org/x/net v0.0.0-20210903162142-ad29c8ab022f
 	golang.org/x/oauth2 v0.0.0-20210819190943-2bc19b11175f
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20210906170528-6f6e22806c34
+	golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f
 	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac
 	golang.org/x/tools v0.1.5
 	google.golang.org/api v0.56.0
