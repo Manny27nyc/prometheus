@@ -8,14 +8,15 @@ require (
 	github.com/Azure/go-autorest/autorest/adal v0.9.15
 	github.com/Azure/go-autorest/autorest/to v0.4.0 // indirect
 	github.com/Azure/go-autorest/autorest/validation v0.3.1 // indirect
+	github.com/Microsoft/go-winio v0.4.17 // indirect
 	github.com/alecthomas/units v0.0.0-20210912230133-d1bdfacee922
 	github.com/aws/aws-sdk-go v1.40.37
 	github.com/cespare/xxhash/v2 v2.1.2
-	github.com/containerd/containerd v1.5.4 // indirect
 	github.com/dennwc/varint v1.0.0
 	github.com/dgryski/go-sip13 v0.0.0-20200911182023-62edffca9245
 	github.com/digitalocean/godo v1.65.0
-	github.com/docker/docker v20.10.8+incompatible
+	github.com/docker/distribution v2.7.1+incompatible // indirect
+	github.com/docker/docker v20.10.24+incompatible
 	github.com/docker/go-connections v0.4.0 // indirect
 	github.com/edsrzf/mmap-go v1.0.0
 	github.com/envoyproxy/go-control-plane v0.9.9
@@ -27,19 +28,25 @@ require (
 	github.com/gogo/protobuf v1.3.2
 	github.com/golang/snappy v0.0.4
 	github.com/google/pprof v0.0.0-20210827144239-02619b876842
+	github.com/google/uuid v1.2.0 // indirect
 	github.com/gophercloud/gophercloud v0.20.0
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0
 	github.com/hashicorp/consul/api v1.10.1
 	github.com/hetznercloud/hcloud-go v1.32.0
+	github.com/imdario/mergo v0.3.11 // indirect
 	github.com/influxdata/influxdb v1.9.3
 	github.com/json-iterator/go v1.1.11
 	github.com/linode/linodego v0.32.0
+	github.com/matttproud/golang_protobuf_extensions v1.0.2-0.20181231171920-c182affec369 // indirect
 	github.com/miekg/dns v1.1.43
 	github.com/moby/term v0.0.0-20201216013528-df9cb8a40635 // indirect
 	github.com/morikuni/aec v1.0.0 // indirect
 	github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f
 	github.com/oklog/run v1.1.0
 	github.com/oklog/ulid v1.3.1
+	github.com/onsi/gomega v1.10.3 // indirect
+	github.com/opencontainers/go-digest v1.0.0 // indirect
+	github.com/opencontainers/image-spec v1.0.1 // indirect
 	github.com/opentracing-contrib/go-stdlib v1.0.0
 	github.com/opentracing/opentracing-go v1.2.0
 	github.com/pkg/errors v0.9.1
@@ -70,6 +77,7 @@ require (
 	gopkg.in/fsnotify/fsnotify.v1 v1.4.7
 	gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
+	gotest.tools/v3 v3.0.3 // indirect
 	k8s.io/api v0.22.1
 	k8s.io/apimachinery v0.22.1
 	k8s.io/client-go v0.22.1
